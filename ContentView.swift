@@ -6,6 +6,8 @@ struct ContentView: View {
     
     var body: some View {
         
+        
+        
         List(self.tasks, id: \.self) { task in
             Text(task)
         }
